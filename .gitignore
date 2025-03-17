@@ -1,0 +1,36 @@
+# Virtual Environments
+venv/
+env/
+hand*_env/
+
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Backup and Old Files
+*~
+*.bak
+OldHand.py
+Hand.py  # Remove this if Hand.py is part of your project
+
+# Test and Temporary Files
+test.txt
+*.log
+*.tmp
+
+# Media Files (if testing with OpenCV generates outputs)
+*.jpg
+*.png
+*.mp4
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+
+# macOS/Windows Artifacts
+.DS_Store
+Thumbs.db
